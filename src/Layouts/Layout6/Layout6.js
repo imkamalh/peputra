@@ -1,4 +1,7 @@
 import React, { Component, Suspense } from "react";
+import "react-whatsapp-widget/dist/index.css";
+import WhatsAppWidget from "react-whatsapp-widget";
+// const WhatsApp = React.lazy(() => import("react-whatsapp-widget"));
 
 const NavbarPage = React.lazy(() =>
   import("../../components/Navbar/Navbar_Page")
@@ -16,6 +19,11 @@ const Subscribe = React.lazy(() =>
   import("../../components/Subscribe/Subscribe")
 );
 const Footer = React.lazy(() => import("../../components/Footer/footer"));
+
+const phoneNumber = "6282172575501";
+const message = "Halo kami dari Peputra Jaya, ada yang bisa kami bantu ?";
+const companyName = "Peputra Jaya";
+const sendButton = "Kirim";
 
 class Layout6 extends Component {
   constructor(props) {
@@ -102,9 +110,28 @@ class Layout6 extends Component {
           {/* Importing footer */}
           <Footer />
         </Suspense>
+        <div style={style.whatsAppWidget}>
+          <WhatsAppWidget
+            phoneNumber={phoneNumber}
+            message={message}
+            companyName={companyName}
+            sendButton={sendButton}
+          />
+        </div>
       </React.Fragment>
     );
   }
 }
+
+const style = {
+  whatsAppWidget: {
+    zIndex: 10,
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    position: "sticky",
+  },
+};
 
 export default Layout6;

@@ -54,7 +54,7 @@ class Footer extends Component {
                     Yourcompanyemailid@gmail.com
                   </p>
                   <h6 className="text-muted font-weight-normal">
-                    +00 1234-5678-90
+                    0822-6850-8166
                   </h6>
                 </div>
               </Col>
@@ -77,10 +77,11 @@ class Footer extends Component {
 
                   <Col md={4}>
                     <h6 className="footer-list-title text-dark mb-3">
-                      Our Address
+                      Alamat kami
                     </h6>
                     <p className="text-muted f-14">
-                      4806 Spring Haven Trail South Orange, NJ 07079
+                      Jl. Daru – Daru Raya, Perumahan Duta Insani Blok. D, No.
+                      15 Tenayan Raya - Pekanbaru
                     </p>
                     <h6 className="text-muted pb-2">
                       Email: Support@gamil.com
