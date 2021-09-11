@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 import Particles from "react-particles-js";
-import img from "../../assets/images/hero-6-bg.jpg";
+import img from "../../assets/images/logo-solid-horizontal.jpeg";
 
 const whatsAppLink =
   "https://api.whatsapp.com/send?phone=6282172575501&text=Halo%20Peputra,%20Saya%20mau%20%20konsultasi%20gratis%20tentang%20pajak%20dan%20hukum%20bisa?";
@@ -14,8 +14,14 @@ class Section extends Component {
     return (
       <React.Fragment>
         <section
-          className="hero-6-bg position-relative vh-100 d-flex align-items-center"
-          style={{ background: `url(${img}) center center no-repeat` }}
+          className=" position-relative vh-100 d-flex align-items-center"
+          style={{
+            backgroundImage: `url(${img})`,
+            backgroundSize: "initial",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "50% 20%",
+            objectFit: "cover",
+          }}
           id="home"
         >
           <div className="bg-overlay op-75">
