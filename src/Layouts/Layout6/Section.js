@@ -16,7 +16,7 @@ class Section extends Component {
         <section
           className=" position-relative vh-100 d-flex align-items-center"
           style={{
-            backgroundImage: `url(${img})`,
+            //backgroundImage: `url(${img})`,
             backgroundSize: "initial",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "50% 20%",

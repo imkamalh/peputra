@@ -31,7 +31,7 @@ class Counter extends Component {
       <React.Fragment>
         <section
           className="section counter-bg"
-          style={{ background: `url(${counterbg}) center center` }}
+          //style={{ background: `url(${counterbg}) center center` }}
         >
           <div className="bg-overlay op-75"></div>
           <Container>
