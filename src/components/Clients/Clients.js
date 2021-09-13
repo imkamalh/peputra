@@ -6,11 +6,11 @@ import SectionTitle from "../../components/common/section-title";
 import ClientsSlider from "./Clients-slider";
 
 //Import Images
-import client1 from "../../assets/images/user/img-1.jpg";
-import client2 from "../../assets/images/user/img-2.jpg";
-import client3 from "../../assets/images/user/img-3.jpg";
-import client4 from "../../assets/images/user/img-4.jpg";
-import client5 from "../../assets/images/user/img-5.jpg";
+import client1 from "../../assets/images/user/malibu.png";
+import client2 from "../../assets/images/user/dapurCokelat.jpg";
+import client3 from "../../assets/images/user/arunaAbadi.png";
+import client4 from "../../assets/images/user/OkeShop.jpg";
+import client5 from "../../assets/images/user/takadeli.png";
 
 class Clients extends Component {
   state = {

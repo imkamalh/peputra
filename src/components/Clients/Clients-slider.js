@@ -67,9 +67,9 @@ class TeamBox extends Component {
                   <Media className="media align-items-center">
                     <img
                       src={client.image}
-                      alt=""
-                      style={{ height: 48, width: 48 }}
-                      className="mr-3 img-fluid d-block rounded-circle"
+                      alt={client.name}
+                      style={style.imgSponsor}
+                      className="mr-3 img-fluid"
                     />
                     <Media body>
                       <h6 className="mb-0 text-dark f-15">{client.name}</h6>
@@ -85,5 +85,12 @@ class TeamBox extends Component {
     );
   }
 }
+const style = {
+  imgSponsor: {
+    height: 100,
+    width: 100,
+    objectFit: "contain",
+  },
+};
 
 export default TeamBox;

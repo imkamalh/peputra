@@ -96,7 +96,7 @@ class NavbarPage extends Component {
                 <div className="call-no">
                   <Nav
                     onClick={this.whatsAppRedirect}
-                    style={{ cursor: "pointer", color: "#ff8057" }}
+                    style={{ cursor: "pointer", color: "#1089FF " }}
                   >
                     0822-6850-8166
                   </Nav>
