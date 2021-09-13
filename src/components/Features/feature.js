@@ -20,7 +20,7 @@ class Features extends Component {
           img: feature1,
           icon: "mdi  mdi-laptop-mac",
           title: "Konsultasi Gratis",
-          desc: "Konsultasikan dokumen perizinan yang anda butuhkan secara gratis. Berlaku hanya untuk sekali konsultasi.",
+          desc: "Konsultasikan pengurusan dokumen dan perizinan yang anda butuhkan secara gratis, berlaku hanya untuk konsultasi pertama.",
           link: "/",
         },
         {
