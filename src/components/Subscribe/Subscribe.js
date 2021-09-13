@@ -6,7 +6,7 @@ import icon1 from "../../assets/images/icon/1.png";
 import icon2 from "../../assets/images/icon/2.png";
 import icon3 from "../../assets/images/icon/3.png";
 
-const mailName = "sabiagency.info@gmail.com";
+const mailName = "sinfo.peputra@gmail.com";
 const subject = "Daftar - Peputra Jaya Newsletter";
 const message = "Saya ingin daftar Peputra Jaya Newsletter";
 

@@ -1316,15 +1316,15 @@ p {
 
 .service-dark .service-icon,
 .service-dark .right-icon {
-  color: #343a40;
+  color: #222a37;
 }
 
 .service-dark:before {
-  background: rgba(52, 58, 64, 0.05);
+  background: #222a3795;
 }
 
 .service-dark:hover:before {
-  background: #343a40;
+  background: #222a37;
 }
 
 .service-muted .service-icon,

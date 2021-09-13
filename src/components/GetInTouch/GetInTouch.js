@@ -5,7 +5,7 @@ import { AvForm, AvField } from "availity-reactstrap-validation";
 //Import Section Title
 import SectionTitle from "../common/section-title";
 
-const mailName = "sabiagency.info@gmail.com";
+const mailName = "info.peputra@gmail.com";
 
 class GetInTouch extends Component {
   constructor(props) {
