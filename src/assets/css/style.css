@@ -52,7 +52,8 @@ p {
 }
 
 .navbar-custom {
-  padding: 14px 0px;
+  padding-top: 20px !important;
+  padding-bottom: 0px;
   width: 100%;
   border-radius: 0px;
   z-index: 999;
@@ -125,7 +126,7 @@ p {
 
 /*---NAVBAR STICKY--*/
 .nav-sticky.navbar-custom {
-  margin-top: 0px;
+  margin-top: 10px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.06);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.06);

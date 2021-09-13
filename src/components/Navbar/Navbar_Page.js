@@ -62,7 +62,7 @@ class NavbarPage extends Component {
         >
           <Container>
             <NavbarBrand className="logo" href="/">
-              {this.props.imglight ? (
+              {this.props.imglight && !mobileCheck() ? (
                 <img src={logolight} alt="" width="100rem" />
               ) : (
                 <img src={logodark} alt="" height="50rem" />
