@@ -5,11 +5,12 @@ import { Container, Row, Col } from "reactstrap";
 import SectionTitle from "../common/section-title";
 
 const missionList = [
-  "memberikan solusi dan informasi yang cepat dan tepat",
-  "membantu mempersiapkan kebutuhan client di bidang legalitas usaha, guna menunjang kelancaran aktivitas perusahaan",
-  "memiliki loyalitas tinggi dan mampu menjaga kerahasiaan perusahaan client",
-  "kualitas dan profesionalisme yang tinggi",
-  "berkomitmen tinggi dalam setiap pelayanan",
+  "Memberikan solusi dan informasi yang cepat dan tepat",
+  "Membantu mempersiapkan kebutuhan client di bidang legalitas usaha, guna menunjang kelancaran aktivitas perusahaan",
+  "Merespon dengan cepat dan baik setiap informasi yang dibutuhkan client",
+  "Memiliki loyalitas tinggi dan mampu menjaga kerahasiaan perusahaan client",
+  "Kualitas dan profesionalisme yang tinggi",
+  "Berkomitmen tinggi dalam setiap pelayanan",
 ];
 
 class About extends Component {
@@ -52,7 +53,7 @@ class About extends Component {
                     </h6>
                     <p className="text-muted font-weight-light">
                       Kami memiliki visi untuk menjadi yang terbaik, terdepan,
-                      terpercaya dalam bidang Jasa Pengurusan Perizinan Usaha,
+                      terpercaya dalam bidang jasa pengurusan perizinan usaha,
                       baik perusahaan berbadan hukum, perorangan dan perusahaan
                       lokal.
                     </p>

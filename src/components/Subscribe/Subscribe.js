@@ -62,7 +62,7 @@ class Subscribe extends Component {
                   <h6 className="text-muted font-weight-normal">
                     Daftarkan email anda{" "}
                     <span className="d-block mt-2">
-                      untuk update terbaru mengenai kami
+                      untuk update terbaru tentang kami
                     </span>
                   </h6>
                 </div>
