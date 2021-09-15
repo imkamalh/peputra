@@ -21,7 +21,7 @@ class GetInTouch extends Component {
         <section className="section">
           <Container>
             <SectionTitle
-              title1="Kamis siap membantu "
+              title1="Kami siap membantu "
               title2="anda"
               desc="Percayakan urusan perizinan dokumen anda di bidang hukum dan perpajakan kepada kami.
                             Silahkan isi form berikut untuk mendapatkan bantuan kami."
