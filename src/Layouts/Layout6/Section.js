@@ -24,7 +24,8 @@ class Section extends Component {
           }}
           id="home"
         >
-          <div className="bg-overlay op-75">
+          <div className="bg-overlay op-75" />
+          {/* <div className="bg-overlay op-75">
             <Particles
               style={{ position: "absolute" }}
               params={{
@@ -49,7 +50,7 @@ class Section extends Component {
                 },
               }}
             />
-          </div>
+          </div> */}
           <Container>
             <Row className="justify-content-center">
               <Col lg={6}>
@@ -57,7 +58,7 @@ class Section extends Component {
                   <div className="hero-6-title-icon mb-4">
                     <i className="mdi mdi-axis-arrow mdi-spin text-white h2"></i>
                   </div>
-                  <h1 className="text-white hero-4-title font-weight-light line-height-1_4 mb-4">
+                  <h1 className="text-white hero-4-title font-weight-bold line-height-1_4 mb-4">
                     Konsultan Hukum dan Pajak Terbaik di Pekanbaru
                   </h1>
                   <p className="text-white-70">
