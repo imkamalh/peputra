@@ -25,7 +25,7 @@ class App extends Component {
   }
   componentDidMount() {
     ReactGA.pageview(window.location.pathname);
-    ReactPixel.default.init("157689129860107");
+    ReactPixel.init("157689129860107");
     ReactPixel.pageView(); // For tracking page view
   }
   render() {
