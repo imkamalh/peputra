@@ -7,6 +7,7 @@ import {
   Redirect,
   BrowserRouter as Router,
 } from "react-router-dom";
+import ReactGA from "react-ga";
 
 // Import Scss
 import "./theme.scss";
@@ -15,10 +16,14 @@ import "./theme.scss";
 import "./assets/css/materialdesignicons.min.css";
 import "./assets/css/pe-icon-7.css";
 
+ReactGA.initialize("G-ZHFV3B5XXC");
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {};
+  }
+  componentDidMount() {
+    ReactGA.pageview(window.location.pathname);
   }
   render() {
     return (
