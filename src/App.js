@@ -8,6 +8,7 @@ import {
   BrowserRouter as Router,
 } from "react-router-dom";
 import ReactGA from "react-ga";
+import ReactPixel from "react-facebook-pixel";
 
 // Import Scss
 import "./theme.scss";
@@ -24,6 +25,8 @@ class App extends Component {
   }
   componentDidMount() {
     ReactGA.pageview(window.location.pathname);
+    ReactPixel.default.init("157689129860107");
+    ReactPixel.pageView(); // For tracking page view
   }
   render() {
     return (
