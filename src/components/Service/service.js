@@ -6,7 +6,7 @@ import SectionTitle from "../common/section-title";
 import ServiceBox from "./services-box";
 
 const whatsAppLink =
-  "https://api.whatsapp.com/send?phone=6282268508166&text=Halo%20Peputra,%20Saya%20mau%20%20konsultasi%20gratis%20tentang%20pajak%20dan%20hukum%20bisa?";
+  "https://api.whatsapp.com/send?phone=6282172575501&text=Halo%20Peputra,%20Saya%20mau%20%20konsultasi%20gratis%20tentang%20pajak%20dan%20hukum%20bisa?";
 
 class Service extends Component {
   constructor(props) {

@@ -41,9 +41,9 @@ class GetInTouch extends Component {
                   <Col md={12}>
                     <div className="contact-address">
                       <h5 className="text-dark mb-3 f-16">Kontak dan Alamat</h5>
-                      <p className="text-muted f-15">0822-6850-8166 (Mobile)</p>
+                      <p className="text-muted f-15">0821-7257-5501 (Mobile)</p>
                       <p className="text-muted f-15">
-                        0822-6850-8166 (WhatsApp)
+                        0821-7257-5501 (WhatsApp)
                       </p>
                       <p className="text-muted f-15">
                         Alamat : Jl. Daru – Daru Raya, Perumahan Duta Insani

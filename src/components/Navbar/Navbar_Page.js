@@ -98,7 +98,7 @@ class NavbarPage extends Component {
                     onClick={this.whatsAppRedirect}
                     style={{ cursor: "pointer", color: "#1089FF " }}
                   >
-                    0822-6850-8166
+                    0821-7257-5501
                   </Nav>
                 </div>
               </ScrollspyNav>
