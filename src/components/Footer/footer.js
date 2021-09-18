@@ -61,7 +61,10 @@ class Footer extends Component {
                   </Link>
                   <p className="text-muted mt-4 mb-2">info.peputra@gmail.com</p>
                   <h6 className="text-muted font-weight-normal">
-                    +62 821-7257-5501
+                    0821-7257-5501 (Mobile)
+                  </h6>
+                  <h6 className="text-muted font-weight-normal">
+                    0821-7257-5501 (Whatsapp)
                   </h6>
                 </div>
               </Col>
