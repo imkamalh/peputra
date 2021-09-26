@@ -25,7 +25,7 @@ class Section extends Component {
           id="home"
         >
           <div className="bg-overlay op-75" />
-          {/* <div className="bg-overlay op-75">
+          <div className="bg-overlay op-75">
             <Particles
               style={{ position: "absolute" }}
               params={{
@@ -50,7 +50,7 @@ class Section extends Component {
                 },
               }}
             />
-          </div> */}
+          </div>
           <Container>
             <Row className="justify-content-center">
               <Col lg={6}>
