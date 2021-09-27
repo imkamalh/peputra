@@ -17,7 +17,10 @@ class Footer extends Component {
         child: [
           { title: "Akta Pendirian CV/PT/Koperasi", link: "/" },
           { title: "NIB", link: "/" },
-          { title: "Tax Amnesty", link: "/" },
+          {
+            title: "Pengurusan NPWP, PKP dan Pengurusan Pajak Bulanan",
+            link: "/",
+          },
           { title: "Pajak SPT Tahunan / Masa", link: "/" },
           {
             title: "Izin Industri, Dinas Kesehatan dan Sertifikat Halal MUI",
