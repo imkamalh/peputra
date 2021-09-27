@@ -25,8 +25,8 @@ class Service extends Component {
         },
         {
           icon: "pe-7s-display1 service-icon",
-          title: "Tax Amnesty",
-          desc: "Jaga bisnismu dari masalah hukum akibat kelalaian membayar pajak. Dengan pengalaman selama 15 tahun, percayakan hal tersebut pada kami.",
+          title: "Pengurusan NPWP, PKP dan Pengurusan Pajak Bulanan",
+          desc: "Lindungi bisnismu dari masalah hukum akibat kelalaian dalam pengurusan dokumen pajak. Dengan pengalaman selama 15 tahun, percayakan hal tersebut pada kami.",
         },
         {
           icon: "pe-7s-cup service-icon",
